@@ -152,7 +152,7 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: 100%;
+    min-height: 100%; /* default value: auto */
     @include background-cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
