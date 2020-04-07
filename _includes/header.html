@@ -1,7 +1,31 @@
 <header>
     <div class="header-content">
-        <div class="header-content-inner">
-            <h1>It's me, Andrew</h1>
+       <div class="header-content-inner">
+            <h1><span>It's me, Andrew</span></h1>
+  
+  
+        <div class="row">
+        <div class="col-lg-2 col-lg-offset-2 text-center">
+            <a href="https://etherscan.io/address/{{ site.ethereum }}">
+                <i class="fab fa-ethereum fa-3x text-info wow bounceIn" data-wow-delay=".1s"></i>
+		<i class="fab fa-bitcoin fa-3x text-info wow bounceIn" data-wow-delay=".1s"></i>
+                <p><span>{{ site.ethereum }}</span></p>
+            </a>
+        </div>
+        <div class="col-lg-2 col-lg-offset-1 text-center">
+            <a href="https://keybase.io/andrewhage/pgp_keys.asc">
+            <i class="fas fa-key fa-3x text-info wow bounceIn" data-wow-delay=".1s"></i>
+                <p><span>pgp</span></p>
+            </a>
+        </div>
+        <div class="col-lg-2 col-lg-offset-1 text-center">
+            <a href="https://github.com/{{ site.github_username }}">
+            <i class="fab fa-github fa-3x text-info wow bounceIn" data-wow-delay=".1s"></i>
+                <p><span>{{ site.github_username }}</span></p>
+            </a>
+        </div>
+
+
         </div>
     </div>
 </header>

@@ -3,9 +3,9 @@ title: It's me, Andrew
 email:
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://andrewhage.com" # the base hostname & protocol for your site
 
-twitter_username:
+ethereum: andrewhage.eth
 github_username: andrewhage
 
 # Build settings
